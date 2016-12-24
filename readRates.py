@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 def readRates(indexReturn,startDate):
-    rateFile = open('C:\\Users\\Arun\\Desktop\\Amort\\macroeconfwd20120420_bcbase.txt','r')
+    rateFile = open('macroeconforward.txt','r')
     headerline= rateFile.readline()
     rateIndexList = headerline.split('\t')
     rateIndex=1
