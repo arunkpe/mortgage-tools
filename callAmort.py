@@ -5,8 +5,6 @@ from Amortization import *
 import readRates
 import math 
 
-sys.path.append("C:\\Users\\Arun\\Desktop\\Amort")
-
 ##LoanInit(self,Principal,term,IndexType,margin,rate,init_rate_reset,subsequent_rate_reset,
 ##                 init_rate_cap,init_rate_floor,periodic_rate_cap,periodic_rate_floor,
 ##                 life_rate_cap,life_rate_floor,heloc_line_amt,io_term,
